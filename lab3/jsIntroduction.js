@@ -1,13 +1,17 @@
 let map = new Map;
 
-function AddValue() {
-    let name = prompt("Input a name of a medicine");
-    let price = prompt("Input a price");
+function AddValue(name, price) {
     map.set(name,price);
 }
 
-function DeleteValue() {
-    let name = prompt("Input a name of a medicine to delete");
+function PromptAdd(){
+    let name = prompt("Input a name of a medicine");
+    let price = prompt("Input a price");
+    AddValue(name, price);
+}
+
+
+function DeleteValue(name) {
     if(map.has(name)){
         map.delete(name)
         alert("Deletion succesful");
@@ -17,8 +21,17 @@ function DeleteValue() {
     }
 }
 
-function GetValueInfo(){
+function PromptDelete(){
+    let name = prompt("Input a name of a medicine to delete");
+    DeleteValue(name);
+}
+
+function PromptGet(){
     let name = prompt("Input a name of a medicine to check the price");
+    GetValueInfo(name);
+}
+
+function GetValueInfo(name){
     if(map.has(name)){
         console.log(map.get(name))
     }
