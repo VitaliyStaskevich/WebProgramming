@@ -3,6 +3,8 @@ button {
     border: none;
     color: white;
     padding: 15px 32px;
+    border-radius: 20px;
+    margin: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -14,4 +16,5 @@ div {
     justify-content: space-between;
     height: 50%;
     flex-direction: column;
+    background-color: blueviolet;
 }
