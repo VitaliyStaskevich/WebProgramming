@@ -57,3 +57,7 @@ function PromptGet(){
 function List(){
     Storage.ListValues();
 }
+
+function Clear(){
+    Storage.Reset();
+}
