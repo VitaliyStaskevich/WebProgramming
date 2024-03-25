@@ -1,8 +1,8 @@
 var FormA = [ 
     { label: 'Город: ', elemtype:'text1line', name:'city', width:200 }, 
     { label: 'Доставка: ', elemtype:'check', name:'delivery' },
-    { label: 'Email: ', elemtype:'email', name:'email' },
-    { label: 'Пароль: ', elemtype:'password', name:'password' },
+    { label: 'Email: ', elemtype:'email', name:'email', width: 200 },
+    { label: 'Пароль: ', elemtype:'password', name:'password', width:200 },
     { label: 'Дата: ', elemtype:'date', name:'date' },
     { label: 'Дополнительная информация: ', elemtype:'textarea', name:'textarea', rows: 4, cols: 50 },
     { label: 'Заказ: ', elemtype:'select', name:'select', options: ['Парацетомол', 'Ибупрофен', 'Аспирин', 'Омепразол', 'Левотироксин'] },
