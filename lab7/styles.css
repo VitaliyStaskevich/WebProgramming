@@ -1,0 +1,44 @@
+h3 {
+    font-size: 30px;
+    color: rgb(19, 230, 44);
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(176, 206, 57);
+}
+
+p {
+    font-size: 20px;
+    color:burlywood;
+}
+
+a {
+    color: rgb(153, 221, 18);
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    flex-direction: column;
+    background-color: indigo;
+}
