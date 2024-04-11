@@ -1,20 +1,20 @@
 h3 {
     font-size: 30px;
-    color: rgb(19, 230, 44);
+    color: #13e62c;
 }
 
 h1 {
     font-size: 30px;
-    color: rgb(176, 206, 57);
+    color: rgb(247, 7, 7);
 }
 
 p {
     font-size: 20px;
-    color:burlywood;
+    color:rgb(221, 141, 37);
 }
 
 a {
-    color: rgb(153, 221, 18);
+    color: rgb(18, 89, 221);
     font-size: 24px;
     display: flex;
     flex-direction: column;
@@ -40,5 +40,5 @@ body {
     justify-content: space-between;
     height: 50%;
     flex-direction: column;
-    background-color: indigo;
+    background-color: rgb(252, 250, 253);
 }
