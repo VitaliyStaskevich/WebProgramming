@@ -44,3 +44,6 @@ function SwitchToSecond(){
 }
 
 switchToStateFromURLHash();
+if(SPAState==''){
+  SwitchToMain();
+}
