@@ -1,0 +1,56 @@
+h3 {
+    font-size: 30px;
+    color: #13e62c;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(247, 7, 7);
+}
+
+p {
+    font-size: 20px;
+    color:rgb(221, 141, 37);
+}
+
+a {
+    color: rgb(18, 89, 221);
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    flex-direction: column;
+    background-color: rgb(252, 250, 253);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #9e8411;
+}
+th, td {
+    border: 1px solid #830868;
+    text-align: left;
+    padding: 8px;
+}
