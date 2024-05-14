@@ -16,7 +16,7 @@ ul {
 }
 .menu-item {
   cursor: pointer;
-  background-color: #db6900;
+  background-color: red;
   border: 1px solid #ffe6f4;
   transition: filter 300ms;
   position: relative;
