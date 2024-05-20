@@ -11,5 +11,5 @@ npm install -g webpack-cli
 ~~~
 To start the server run
 ~~~
-node webServer.exe
+node webServer.js
 ~~~
