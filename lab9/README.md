@@ -1,6 +1,11 @@
 # Lab 9
 
 ## Usage
+To install all dependencies
+~~~
+npm install
+~~~
+To compile the files into a bundle
 ~~~
 webpack --config webpack.config.js
 ~~~
